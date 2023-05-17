@@ -1,0 +1,160 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.side-bar{
+    width: 20%;
+    height: 960px;
+    position: relative;
+    box-shadow: 4px 0px 24px 4px #d6d6d6;
+}
+
+.right-content{
+    width: 80%;
+    background-color: #ebeff2;
+}
+
+.search-noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.search{
+    width: 91%;
+}
+
+.list{
+    /* display: none; */
+    position: absolute;
+    list-style: none;
+    width: 440px;
+    height: 430px;
+    right: 30px;
+    top: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 12px 20px 0px #d6d6d6;
+    overflow: auto;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #109CF1; 
+    border-radius: 10px;
+  }
+  
+
+.list-none{
+    display: none;
+}
+
+.list-noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.tasks{
+    width: 53%;
+    height: 830px;
+    background-color: #FFFFFF;
+    margin: auto;
+    /* margin-top: 36px;
+    margin-left: 28px; */
+}
+
+.tasks-list{
+    width: 92%;
+    margin: auto;
+}
+
+.img{
+    width: 40%;
+    height: 830px;
+}
+
+.side-bar-top{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24.51px;
+    color: #109CF1;
+    padding-left: 24px;
+}
+
+.side-bar-profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    width: 80%;
+    display: flex;
+    margin-top: 24px;
+}
+
+.profile-info{
+    margin-left: 12px;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-mini{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.side-bar-menu{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.side-bar-setting{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
